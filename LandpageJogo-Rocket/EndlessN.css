@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(owl-animation-landscape-art-digital-painting-animation.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    backdrop-filter: brightness(0.4);
+    height: auto;
+}
+
+.Group{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.Titulo{
+    color: darkorange;
+    text-shadow: 4px 5px black;
+    font-family: 'Emilys Candy', cursive;
+    font-size: 90px;
+    text-align: center;
+    
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.Titulo:hover{
+    color: white;
+    text-shadow: 4px 5px 10px darkorange;
+    font-family: 'Emilys Candy', cursive;
+    font-size: 90px;
+    text-align: center;
+    
+}
+
+.Subtitulo{
+    font-family: inter;
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: bold;
+
+}
+
+.Subtitulo span{
+    color: rgb(255, 139, 37);
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+.Text{
+    margin-top: 5px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.Buttons{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold ;
+}
+
+.Readmore{
+    color: aliceblue;
+    
+    width: 200px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955), font-size 0.5s ease;
+}
+
+.Readmore:hover {
+    border: 2px solid chocolate;
+    background-color: rgba(210, 105, 30, 0.319);
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+.PlayNow{
+    background-color: chocolate;
+    width: 200px;
+    height: 80px;
+    border-radius: 10px;
+    color: aliceblue;
+    text-decoration: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955), font-size 0.5s ease;
+}
+
+.PlayNow:hover{
+    color:rgb(68, 32, 12);
+    font-size: 25px;
+    background-color: rgb(236, 145, 80);
+}
