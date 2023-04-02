@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    color: var(--Cor3);
+}
+
+:root{
+    font-size: 62.5%;
+    --Cor1: #3F3D56;
+    --Cor2: #EE24FF;
+    --Cor3: #828282;
+    --Cor4: #ECEFF2;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+main{
+    width: 62.6rem;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+main img{
+    width: 35.0rem;
+    height: 23.8rem;
+    margin: 6.4rem auto 3.2rem;
+}
+
+h1{
+    margin: auto auto 1.6rem;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+    font-size: 3.2rem;
+    color: var(--Cor1);
+    width: 49.4rem;    
+}
+
+h1 span{
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    color: var(--Cor2);
+}
+
+p{
+    margin: auto auto 2.9rem;
+    font-size: 1.5rem;
+    width: 54.0rem;
+}
+
+p span{
+    font-weight: bold;
+    color: var(--Cor1)
+}
+
+footer{
+    margin: 6.4rem auto auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 39.1rem;
+    flex-wrap: wrap;
+}
+
+.line{
+    width: 39.1rem;
+    border: 1px solid var(--Cor4);
+}
+
+a{
+    margin-top: 2.0rem;     
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--Cor1);
+    margin-bottom: 4.0rem;
+
+}
+
+a + a {
+    margin-left: 4.2rem;
+}
+
+footer img{
+    margin: 17.6rem 0 0 0;
+    position: absolute;
+    width: 100vw;
+    object-fit: cover;
+
+}
