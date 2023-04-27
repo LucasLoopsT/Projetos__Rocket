@@ -1,8 +1,6 @@
 <h1>Desafio de replicar template do figma</h1>
 
-<p align="center">
-  <img src="imgs/preview.png" width="100%" style="border-radius:10%">
-</p>
+<p align="center" > <img src="imgs/preview.png" width="100%" style="border: 2px solid red"> </p>
 
 ## 🚀 Tecnologias
 
