@@ -1,4 +1,4 @@
-<h1 align="center">Desafio de replicar template do figma</h1>
+<h1 align="center">Desafio - Replicar template</h1>
 
 <p align="center"> <img src="images/preview.png" width="100%"> </p>
 
