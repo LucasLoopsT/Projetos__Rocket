@@ -1,6 +1,6 @@
 <h1 align="center"> Projetos__Rocket </h1>
 
-<p align="center">This is a folder with projects from my web school - Rocketseat 🚀 
+<p align="center">Here you can see a preview of all projects in this repository ✨ 
 <br><br>
 <table align="center">
     <thead>
