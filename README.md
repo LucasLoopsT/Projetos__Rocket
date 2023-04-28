@@ -66,3 +66,7 @@
         </tr>
     </tbody>
 </table></p>
+
+---
+
+🌌 By Lucas Loopst
