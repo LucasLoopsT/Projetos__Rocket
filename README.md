@@ -60,7 +60,7 @@
         <tr>
             <td align="center"><a href="https://github.com/LucasLoopsT/Projetos__Rocket/tree/main/Projeto__02.5">02.5</a></td>
             <td align="center"><a href="https://github.com/LucasLoopsT/Projetos__Rocket/tree/main/Projeto__02.5">Template Challange - HTML</a></td>
-            <td align="center"><a href="https://github.com/LucasLoopsT/Projetos__Rocket/tree/main/Projeto__01">
+            <td align="center"><a href="https://github.com/LucasLoopsT/Projetos__Rocket/tree/main/Projeto__02.5">
             <img width="300px" src="https://github.com/LucasLoopsT/Projetos__Rocket/blob/main/Projeto__02.5/imgs/preview.png?raw=true"/></a>
             </td>
         </tr>
