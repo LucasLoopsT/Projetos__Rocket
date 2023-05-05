@@ -64,6 +64,13 @@
             <img width="300px" src="https://github.com/LucasLoopsT/Projetos__Rocket/blob/main/Projeto__02.5/imgs/preview.png?raw=true"/></a>
             </td>
         </tr>
+        <tr>
+            <td align="center"><a href="https://github.com/LucasLoopsT/Projetos__Rocket/tree/main/Projeto__03">03</a></td>
+            <td align="center"><a href="https://github.com/LucasLoopsT/Projetos__Rocket/tree/main/Projeto__03">Template Challange - HTML</a></td>
+            <td align="center"><a href="https://github.com/LucasLoopsT/Projetos__Rocket/tree/main/Projeto__03">
+            <img width="300px" src="https://github.com/LucasLoopsT/Projetos__Rocket/blob/main/Projeto__03/imgs/preview.png?raw=true"/></a>
+            </td>        
+        </tr>
     </tbody>
 </table></p>
 
