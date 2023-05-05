@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Evento</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700&family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="page">
+        <header>
+            <h1>Crie e compartilhe seu evento.</h1>
+            <p>O primeiro passo, é preencher esse formulário de inscrição.</p>
+        </header>
+        <main>
+            <form id="my-form">
+                <fieldset>
+                    <legend>Informações do Evento</legend>
+                    <div class="line"></div>
+                    <label for="evento_id">Título do evento <span>(mínimo 8 caracteres)</span></label>
+                    <input id="evento_id" type="text" minlength="8" required>
+        
+                    <label for="link_id">Link do evento <span>(comece com https://)</span></label>
+                    <input id="link_id" type="url" required>
+        
+                    <label for="number_id">Whatsapp para contato <span>(somente números)</span></label>
+                    <input id="number_id" type="number" required>
+        
+                    <label for="infos_id">Informações extras</label>
+                    <textarea id="infos_id" required></textarea>
+        
+                    <label for="categoria_id">Categoria</label>
+                    <select id="categoria_id" placeholder="Tipo do evento" required>
+                        <option value="" disabled selected>Tipo do evento</option>
+                        <option value="Music">Música</option>
+                        <option value="Podcast">Podcast</option>
+                        <option value="Palastra">Palestra</option>
+                    </select>
+                </fieldset>
+    
+                <fieldset>
+                    <legend>Privacidade</legend>
+                    <div class="line"></div>
+                    
+                    <label for="email_id">E-mail do administrador <span>(digite um email válido)</span></label>
+                    <input id="email_id" type="email" required>
+        
+                    <label for="senha_id">Senha de acesso para os participantes <span>(mínimo 8 caracteres)</span></label>
+                    <input id="senha_id" type="password" minlength="8" required>
+        
+                    <div class="check-box">
+                        <input id="privado_id" type="checkbox">
+                        <label for="privado_id">Evento privado</label>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Dia e hora</legend>
+                        <div class="line"></div>
+                        <div class="data-container">
+                            <div>
+                                <label for="data_id">Data</label>
+                                <input id="data_id" type="date" required>
+                            </div>
+                            <div>
+                                <label for="hora1_id">Das</label>
+                                <input id="hora1_id" type="datetime" placeholder="19:00" required>
+                            </div>
+                            <div>
+                                <label for="hora2_id">Até</label>
+                                <input id="hora2_id" type="datetime" placeholder="20:00" required>
+                            </div>
+                        </div>
+                </fieldset>
+            </form>        
+            <section class="submit-container">
+                <input form="my-form" class="submit-button" type="submit" value="Salvar envio">
+            </section>
+        </main>
+    </div>
+</body>
+</html>
