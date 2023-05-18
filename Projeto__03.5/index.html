@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário - Mentoria</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="page">
+        <header>
+            <h1>AVALIE A SUA MENTORIA</h1>
+            <p>Chegou a hora de avaliar o seu mentor. Bora lá?</p>
+            <img src="imgs/img1.png" alt="balão com estrelas">
+        </header>
+        <main>
+            <div class="top-container">
+                <h1>Informações pessoais</h1>
+            </div>
+            <form id="my-form">
+                <fieldset class="field-box">
+                    <div class="label-input-box">
+                        <label for="nome_id">Nome</label>
+                        <input id="nome_id" type="text" maxlength="30" required>
+                    </div>
+                    <div class="label-input-box">
+                        <label  for="sobrenome_id">Sobrenome</label>
+                        <input id="sobrenome_id" type="text" maxlength="30" required>
+                    </div>
+                    <div class="label-input-box">
+                        <label for="email_id">Email</label>
+                        <input id="email_id" type="email" required>
+                    </div>
+                </fieldset>
+                <fieldset class="field-box">
+                    <legend>Informações do Mentor</legend>
+                    <div class="label-input-box">
+                        <label for="mentor_id">Selecione quem foi o seu mentor</label>
+                        <select id="mentor_id" required>
+                            <option value="" disabled selected id="selection-placeholder">-</option>
+                            <option value="Music">Mayk Brito</option>
+                            <option value="Podcast">Fulaninho</option>
+                            <option value="Palastra">Palestrante</option>
+                        </select>
+                    </div>
+                    <div class="label-input-box">
+                        <label for="feedback-id">Feedback sobre o mentor</label>
+                        <textarea id="feedback-id" maxlength="250"></textarea>
+                    </div>
+                    <div class="check-box">
+                        <input id="duvidas_id" type="checkbox">
+                        <label for="duvidas_id">Todas as minhas dúvidas foram esclarecidas durante a mentoria.</label>
+                    </div>
+                </fieldset>
+                <fieldset class="field-box-nowrap">
+                    <legend>Agendando próxima mentoria</legend>
+                    <div class="label-input-box">
+                        <label for="data_id">Data <span>(DD/MM/AAAA)</span></label>
+                        <input id="data_id" type="date" required>
+                    </div>
+
+                    <div class="label-input-box">
+                        <label for="hora1_id">Das</label>
+                        <input id="hora1_id" type="time" required>
+                    </div>
+
+                    <div class="label-input-box">
+                        <label for="hora2_id">Até</label>
+                        <input id="hora2_id" type="time" required>
+                    </div>
+                </fieldset>
+                <input form="my-form" class="submit-button" type="submit" value="Salvar">
+            </form>
+        </main>
+    </div>
+</body>
+</html>
