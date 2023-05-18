@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: #BFD7E4;
+}
+
+.page{
+    width: 750px;
+    margin: auto;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10.7rem;
+}
+
+header h1{
+    font-family: 'Staatliches', cursive;
+    font-size: 3.6rem;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+header p{
+    margin-bottom: 2.7rem;
+    color: #ffffff;
+}
+
+header::before{
+    content: '';
+    width: 100%;
+    height: 46.5rem;
+    background-color: #293241;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+main{
+    margin-top: 3.2rem;
+    margin-bottom: 39.2rem;
+    width: auto;
+    height: 120.6rem;
+    background-color: #ffffff;
+    border-radius: 2rem;
+}
+
+.top-container, .top-container h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 13.9rem;
+    border-radius: 20px 20px 0 0;
+    background-color: #F67669;
+
+    font-family: 'Staatliches', cursive;
+    font-weight: 400;
+    font-size: 2.4rem;
+    color: #ffffff;
+}
+
+form{
+    width: 62.2rem;
+    margin: auto;
+}
+
+fieldset{
+    border: none;
+    padding: 0;
+}
+
+legend{
+    font-family: 'Staatliches', cursive;
+    font-size: 2.4rem;
+    font-weight: 400;
+    color:#253B51;
+    text-align: center;
+
+    width: 62.2rem;
+    border-bottom: #E6E6F0 1px solid;
+
+    margin-bottom: 3.1rem;
+    padding: 0 0 .8rem;
+}
+
+label{
+    font-size: 1.4rem;
+    color: #4E4958;
+}
+
+input, select, textarea{
+    padding: 1rem;
+    background: #FAFAFC;
+    border: 1px solid #E6E6F0;
+    border-radius: 8px;  
+}
+
+.field-box{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3rem 0 3rem;
+    gap: 2.2rem;
+}
+.field-box-nowrap{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 3rem 0 3rem;
+    gap: 2.2rem;
+}
+
+.label-input-box{
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+    margin: 0;
+}
+
+#nome_id, #sobrenome_id, #mentor_id, #duvidas_id, #data_id{
+    width: 30rem;
+    height: 5.5rem;
+    background: #FAFAFC;
+    border: 1px solid #E6E6F0;
+    border-radius: 8px;
+}
+
+#email_id{
+    width: 62.2rem;
+    height: 5.5rem;
+    background: #FAFAFC;
+    border: 1px solid #E6E6F0;
+    border-radius: 8px;  
+}
+
+select{
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+textarea{
+    width: 60.8rem;
+    height: 16.8rem;
+
+    resize: none;
+}
+
+#duvidas_id{
+    width: 2.4rem;
+    height: 2.4rem;
+    padding: 0;
+}
+
+.check-box{
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.check-box label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.check-box label::before{
+    content: '';
+    display: block;
+    width: 2.4rem;
+    height: 2.4rem;
+    background: #FAFAFC;
+    border: 1px solid #E6E6F0;
+    border-radius: 8px;  
+}
+
+.check-box input{
+    position: absolute;
+    width: 2.4rem;
+    height: 2.4rem;
+    margin: 0;
+    
+    opacity: 0;
+}
+
+.check-box input:checked + label::before{
+    background-image: url("data:image/svg+xml,%3Csvg width='18' height='14' viewBox='0 0 18 14' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M6 11.17L1.83 7L0.410004 8.41L6 14L18 2L16.59 0.589996L6 11.17Z' fill='%2342D3FF'/%3E%3C/svg%3E%0A");    
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.check-box input:focus + label::before{
+    outline: 2px solid black;
+}
+
+#hora1_id, #hora2_id{
+    width: 14rem;
+    height: 5.5rem;
+}
+
+.submit-button{
+    font-family: 'Staatliches', cursive;
+    font-size: 2rem;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 6.4rem auto auto;  
+
+    width: 60.8rem;
+    height: 5.6rem;
+    background-color: #F67669;
+
+    border: none;
+    border-radius: .8rem;
+
+    transition: all 0.1s ease;
+}
+
+.submit-button:hover{
+    background-color: #ec5b4a;
+}
+
