@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: #ECE9FD;
+    color: #090039;
+    font-family: 'Epilogue', sans-serif;
+    font-size: 1.6rem;
+
+    padding: 6rem 2.3rem 6.6rem;
+}
+
+main{
+    max-width: 33.0rem;
+    margin: 0 auto;
+}
+
+#container-1{
+    margin-bottom: 7.2rem;
+}
+
+h5{
+    color: #7158EF;
+    font-weight: 400;
+    font-size: 1.6rem;
+    letter-spacing: .3rem;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+h1{
+    font-weight: 800;
+    font-size: 4rem;
+    line-height: 4.8rem;
+    max-width: 32.9rem;
+    margin-bottom: 1.5rem;
+}
+
+#container-1 p{
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+    max-width: 32.9rem;
+    color: rgba(10, 0, 57, 0.64);
+    margin: 0;
+    margin-bottom: 3.2rem;
+}
+
+a{
+    font-weight: 400;
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+
+a:hover{
+    font-weight: bold;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    display: flex;
+    max-width: 33rem;
+    gap: 3.8rem;
+    align-items: center;
+
+    font-weight: 700;
+    font-size: 2.4rem;
+    margin-bottom: 3.5rem;
+}
+
+li p{
+    max-width: 25.7rem;
+}
+
+li span{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 7.2rem;
+    width: 6rem;
+}
+
+@media (min-width: 700px){
+
+    body{
+        padding: 8rem;
+    }
+
+    main{
+        display: flex;
+        gap: 10rem;
+        max-width: 104rem;
+        margin: auto;
+    }
+    
+    #container-1{
+        max-width: 48.4rem;
+        margin: 0;
+    }
+
+    #container-1 p{
+        max-width: 48.4rem;
+        margin: 0;
+        margin-bottom: 3.2rem;
+    }
+
+    h1{
+        font-weight: 800;
+        font-size: 4rem;
+        line-height: 4.8rem;
+        max-width: 50rem;
+        margin-bottom: 1.5rem;
+    }
+
+    #container-2{
+        margin-top: 7.2rem;
+    }
+
+    #container-2 p{
+        max-width: 32.5rem;
+    }
+
+    li{
+        max-width: 42.5rem;
+    }
+
+
+
+
+
+
+
+
+}
