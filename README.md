@@ -76,7 +76,14 @@
             <td align="center"><a href="https://github.com/LucasLoopsT/Projetos__Rocket/tree/main/Projeto__03.5">Template Challange - HTML</a></td>
             <td align="center"><a href="https://github.com/LucasLoopsT/Projetos__Rocket/tree/main/Projeto__03.5">
             <img width="300px" src="https://github.com/LucasLoopsT/Projetos__Rocket/blob/main/Projeto__03.5/imgs/preview.png?raw=true"/></a>
-            </td>        
+            </td>      
+        </tr>
+        <tr>
+            <td align="center"><a href="https://github.com/LucasLoopsT/Projetos__Rocket/tree/main/Projeto__04">04</a></td>
+            <td align="center"><a href="https://github.com/LucasLoopsT/Projetos__Rocket/tree/main/Projeto__04">Responsiveness Challange - HTML</a></td>
+            <td align="center"><a href="https://github.com/LucasLoopsT/Projetos__Rocket/tree/main/Projeto__04">
+            <img width="300px" src="https://github.com/LucasLoopsT/Projetos__Rocket/blob/main/Projeto__04/imgs/preview.png?raw=true"/></a>
+            </td>      
         </tr>
     </tbody>
 </table></p>
