@@ -1,4 +1,4 @@
-<h1 align="center">Desafio - X</h1>
+<h1 align="center">Desafio - Grid e Responsividade</h1>
 
 <p align="center"> <img src="imgs/preview.png" width="100%"> </p>
 
@@ -12,7 +12,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## ✏️ Layout
 
-🔗 Link-Figma: 
+🔗 Link-Figma: https://www.figma.com/file/JPwZANuiVyBBbeVdmIId4S/Explorer-Stage-03-Projeto-03-(Copy)?type=design&node-id=203%3A1865&t=BfgJ0B9JqdJZZb9e-1
 
 ---
 
