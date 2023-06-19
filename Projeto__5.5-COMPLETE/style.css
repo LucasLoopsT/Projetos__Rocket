@@ -1,0 +1,492 @@
+*{
+    margin: 0;
+}
+
+:root{
+    /* Font-Family */
+    --ff-tittle: 'Staatliches', cursive;
+    --ff-text: 'Palanquin', sans-serif;
+    
+    /* Font-Size */
+    font-size: 62.5%;
+    --fs-tittle: 4rem;
+    --fs-subtittle: 2rem;
+    --fs-text: 2rem;
+    
+    /* Colors */
+    --hue: 250;
+    --color-BG: hsl(233, 100%, 97%);
+    --color-Pri:hsl(218, 17%, 62%);
+    --color-Sec:hsl(275, 18%, 79%);
+    --color-Ter:hsl(312, 91%, 96%);
+    
+    --color-subtittle:hsl(232, 17%, 35%);
+    --color-text:hsl(274, 84%, 12%);
+}
+
+header{
+    background-color: var(--color-Pri);
+    min-height: 28rem;
+    min-width: 45rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#logo-container{
+    position: relative;
+    margin: 3.2rem auto 3.8rem;
+    width: 14rem;
+    height: 14rem;
+    
+    animation: LogoAparece 1150ms 200ms backwards ease;
+}
+
+@keyframes LogoAparece{
+    0%{
+        opacity: 0;
+        transform: translateY(-5.5rem);
+    }
+}
+
+#logo-container img:nth-child(1){
+    width: 13.7rem;
+    height: 13.7rem;
+
+    position: absolute;
+    top: 2rem;
+    left: 0;
+
+    animation: SomeIcon1 700ms 1000ms forwards ease;
+}
+
+@keyframes SomeIcon1 {
+    0%{
+        opacity: 1;
+        transform: scaleX(-1);
+    }
+    100%{
+        opacity: 0;
+    }   
+}
+
+#logo-container img:nth-child(2){
+    width: 17.7rem;
+    height: 17.7rem;
+
+    position: absolute;
+    top:0;
+    left: -2.3rem;
+
+    animation: ApareceIcon2 700ms 990ms both ease;
+}
+
+@keyframes ApareceIcon2 {
+    0%{
+        opacity: 0;
+        transform: scaleX(-1);
+    }
+    100%{
+        filter: drop-shadow(5px 5px 10px var(--color-BG));
+    }
+}
+
+header h1{
+    font-family: var(--ff-tittle);
+    font-size: var(--fs-tittle);
+    color: white;
+    text-align: center;
+    letter-spacing: 0.05em;
+    line-height: 3.4rem;
+    font-weight: 400;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+
+    background-color: var(--color-Sec);
+    padding: 2rem 0;
+    margin-bottom: 3rem;
+
+    animation: TittleAparece 500ms 750ms backwards ease;
+}
+
+@keyframes TittleAparece {
+    0%{
+        opacity: 0;
+        font-size: 0;
+    }
+}
+
+body{
+    background-color: var(--color-BG);
+}
+
+main{
+    width: 45rem;
+    margin: 1.4rem auto 0;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main p{
+    font-family: var(--ff-text);
+    font-size: var(--fs-text);
+    color: var(--color-text);
+    width: 44rem;
+    font-weight: 400;
+    text-align: center;
+
+    margin-bottom: 6.3rem;
+
+    animation: Text 750ms 1550ms backwards ease;
+}
+
+@keyframes Text {
+    0%{
+        opacity: 0;
+        transform: translateX(5.5rem);
+    }
+}
+
+.cardM{
+    position: relative;
+    margin-bottom: 3.2rem;
+}
+
+.cardM img{
+    animation: Sorvetes 900ms 2200ms backwards ease;
+}
+
+@keyframes Sorvetes {
+    0%{
+        opacity: 0;
+        transform: translateY(5.5rem);
+    }
+}
+
+.cardM h2{
+    font-family: var(--ff-tittle);
+    font-size: var(--fs-subtittle);
+    color: var(--color-subtittle);
+    font-weight: 400;
+    text-align: center;
+
+    background-color: white;
+    width: 11.2rem;
+    padding: 0.7rem 0;
+    border-radius: 2rem;
+    
+    position: absolute;
+    top: 1.6rem;
+    left: 19.2rem;
+    z-index: 2;
+
+    animation: nova 600ms 2400ms backwards ease;
+}
+
+@keyframes nova {
+    0%{
+        opacity: 0;
+        transform: translateY(-5rem);
+    }
+}
+
+header p{
+    opacity: 0;
+    width: 1rem;
+    font-size: 0.1px;
+}
+
+.imgs-container{
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
+
+.imgs-container .cardD img{
+    position: absolute;
+}
+
+main #footer-p{
+    opacity: 0;
+    font-size: 0.1px;
+    margin: 0;
+    width: 1rem;
+}
+
+/* //////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////// */
+
+@media (min-width: 900px) {
+    
+    :root{
+        --ff-text: 'Roboto', sans-serif;
+
+        /* Font-Size */
+        font-size: 62.5%;
+        --fs-tittle: 4.8rem;
+        --fs-subtittle: 2rem;
+        --fs-text: 1.6rem;
+    }
+
+    body{
+        background-color: white;
+    }
+    
+    #page{
+        max-width: 117rem;
+        display: flex;
+        gap: 9rem;
+    }
+    
+    header{
+        background-color: var(--color-Pri);
+        min-width: 37.7rem;
+        min-height: 100vh;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: unset;
+    }
+    
+    #logo-container{
+        position: relative;
+        margin: 3.2rem auto;
+        width: 21.5rem;
+        height: 16.4rem;
+        
+        animation: LogoAparece 1150ms 200ms backwards ease;
+    }
+    
+    @keyframes LogoAparece{
+        0%{
+            opacity: 0;
+            transform: translateY(-5.5rem);
+        }
+    }
+    
+    #logo-container img:nth-child(1){
+        max-width: 21.4rem;
+    
+        position: absolute;
+        top: 2rem;
+        left: 3rem;
+    
+        animation: SomeIcon1 850ms 1200ms forwards ease;
+    }
+    
+    @keyframes SomeIcon1 {
+        0%{
+            opacity: 1;
+            transform: scaleX(-1);
+        }
+        100%{
+            opacity: 0;
+        }   
+    }
+    
+    #logo-container img:nth-child(2){
+        max-width: 21.4rem;
+        
+        position: absolute;
+        top: 0;
+        left: 1rem;
+    
+        animation: ApareceIcon2 850ms 1190ms both ease;
+    }
+    
+    @keyframes ApareceIcon2 {
+        0%{
+            opacity: 0;
+            transform: scaleX(-1);
+        }
+    }
+    
+    header h1{
+        font-family: var(--ff-tittle);
+        font-size: var(--fs-tittle);
+        color: white;
+        text-align: center;
+        line-height: 3rem;
+        letter-spacing: 0;
+        font-weight: 400;
+        text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    
+        background-color: var(--color-Sec);
+        padding: 2rem 0;
+        margin-bottom: 3.2rem;
+    
+        animation: TittleAparece 500ms 750ms backwards ease;
+    }
+    
+    @keyframes TittleAparece {
+        0%{
+            opacity: 0;
+            font-size: 0;
+        }
+    }
+    
+    header p{
+        font-family: var(--ff-text);
+        font-size: var(--fs-text);
+        color: white;
+        width: 27.5rem;
+        font-weight: 400;
+        text-align: center;
+        opacity: 1;
+    
+        margin: 0 auto 12.5rem;
+    
+        animation: Text 750ms 1100ms backwards ease;
+    }
+    
+    @keyframes Text {
+        0%{
+            opacity: 0;
+            transform: translateY(5.5rem);
+        }
+    }
+    
+    main{
+        min-width: 72.5rem;
+        margin-top: 6.4rem;
+        display: unset;
+    }
+    
+    .imgs-container{
+        display: grid;
+        grid-template-areas: 
+        "img1 img2 img3";
+        gap: 3.2rem;
+        margin: 0 auto;
+        z-index: 1;
+        opacity: 1;
+        position: static;
+    }
+    
+    .cardD{
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+    }
+    
+    .imgs-container div:nth-child(1){
+        grid-area: img1;
+        animation: conjuntoimg1 800ms 700ms backwards ease;
+    }   
+        @keyframes conjuntoimg1{
+            0%{
+                opacity: 0;
+                transform: translateX(4rem);
+            }
+        }
+    
+        .imgs-container div:nth-child(1) img:nth-child(1){
+            max-width: 22rem;
+            max-height: 15rem;
+            object-fit: cover;
+            border-radius: 2rem;
+            position: static;
+        }
+    
+        .imgs-container div:nth-child(1) img:nth-child(2){
+            max-width: 22rem;
+            max-height: 35rem;
+            object-fit: cover;
+            border-radius: 2rem;
+            position: static;
+        }
+    
+    .imgs-container div:nth-child(2){
+        grid-area: img2;
+        animation: conjuntoimg2 800ms 1000ms backwards ease;
+    }
+    
+        @keyframes conjuntoimg2{
+            0%{
+                opacity: 0;
+                transform: translateX(4rem);
+            }
+        }
+    
+        .imgs-container div:nth-child(2) img:nth-child(1){
+            max-width: 22rem;
+            max-height: 35rem;
+            object-fit: cover;
+            border-radius: 2rem;
+            position: static;
+        }
+    
+        .imgs-container div:nth-child(2) img:nth-child(2){
+            max-width: 22rem;
+            max-height: 15rem;
+            object-fit: cover;
+            border-radius: 2rem;
+            position: static;
+        }
+    
+    .imgs-container div:nth-child(3){
+        grid-area: img3;
+        animation: conjuntoimg3 800ms 1300ms backwards ease;
+    }
+    
+        @keyframes conjuntoimg3{
+            0%{
+                opacity: 0;
+                transform: translateX(4rem);
+            }
+        }
+    
+        .imgs-container div:nth-child(3) img:nth-child(1){
+            max-width: 22rem;
+            max-height: 15rem;
+            object-fit: cover;
+            border-radius: 2rem;
+            position: static;
+        }
+    
+        .imgs-container div:nth-child(3) img:nth-child(2){
+            max-width: 22rem;
+            max-height: 35rem;
+            object-fit: cover;
+            border-radius: 2rem;
+            position: static;
+        }
+    
+    main p{
+        font-family: var(--ff-text);
+        font-size: var(--fs-text);
+        color: var(--color-subtittle);
+        text-align: center;
+        margin: 0;
+        
+        animation: Text 750ms 1650ms backwards ease;
+    }
+    
+    main a{
+        text-decoration: none;
+        color: var(--color-subtittle);
+        font-weight: bolder;
+    }    
+
+    main p{
+        opacity: 0;
+        width: 1rem;
+        font-size: 0.1px;
+    }
+
+    main .cardM{
+        position: absolute;
+        left: 0;
+        z-index: -1;
+    }
+
+}
