@@ -92,6 +92,13 @@
             <img width="300px" src="https://github.com/LucasLoopsT/Projetos__Rocket/blob/main/Projeto__05/imgs/preview.png?raw=true"/></a>
             </td>      
         </tr>
+        <tr>
+            <td align="center"><a href="https://github.com/LucasLoopsT/Projetos__Rocket/tree/main/Projeto__05.5">05.5</a></td>
+            <td align="center"><a href="https://github.com/LucasLoopsT/Projetos__Rocket/tree/main/Projeto__05.5">Mobile & Animation Challange - HTML</a></td>
+            <td align="center"><a href="https://github.com/LucasLoopsT/Projetos__Rocket/tree/main/Projeto__05.5">
+            <img width="300px" src="https://github.com/LucasLoopsT/Projetos__Rocket/blob/main/Projeto__05.5/imgs/preview.png?raw=true"/></a>
+            </td>      
+        </tr>
     </tbody>
 </table></p>
 
