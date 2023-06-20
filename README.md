@@ -93,10 +93,24 @@
             </td>      
         </tr>
         <tr>
-            <td align="center"><a href="https://github.com/LucasLoopsT/Projetos__Rocket/tree/main/Projeto__05.5">05.5</a></td>
-            <td align="center"><a href="https://github.com/LucasLoopsT/Projetos__Rocket/tree/main/Projeto__05.5">Mobile & Animation Challange - HTML</a></td>
-            <td align="center"><a href="https://github.com/LucasLoopsT/Projetos__Rocket/tree/main/Projeto__05.5">
-            <img width="300px" src="https://github.com/LucasLoopsT/Projetos__Rocket/blob/main/Projeto__05.5/imgs/preview.png?raw=true"/></a>
+            <td align="center"><a href="https://github.com/LucasLoopsT/Projetos__Rocket/tree/main/Projeto__05.5-MOBILE">05.5-MOBILE</a></td>
+            <td align="center"><a href="https://github.com/LucasLoopsT/Projetos__Rocket/tree/main/Projeto__05.5-MOBILE">Mobile & Animation Challange - HTML</a></td>
+            <td align="center"><a href="https://github.com/LucasLoopsT/Projetos__Rocket/tree/main/Projeto__05.5-MOBILE">
+            <img width="300px" src="https://github.com/LucasLoopsT/Projetos__Rocket/blob/main/Projeto__05.5-MOBILE/imgs/preview.png?raw=true"/></a>
+            </td>      
+        </tr>
+        <tr>
+            <td align="center"><a href="https://github.com/LucasLoopsT/Projetos__Rocket/tree/main/Projeto__05.5-DESK">05.5-DESKTOP</a></td>
+            <td align="center"><a href="https://github.com/LucasLoopsT/Projetos__Rocket/tree/main/Projeto__05.5-DESK">Desktop & Animation Challange - HTML</a></td>
+            <td align="center"><a href="https://github.com/LucasLoopsT/Projetos__Rocket/tree/main/Projeto__05.5-DESK">
+            <img width="300px" src="https://github.com/LucasLoopsT/Projetos__Rocket/blob/main/Projeto__05.5-DESK/imgs/preview.png?raw=true"/></a>
+            </td>      
+        </tr>
+        <tr>
+            <td align="center"><a href="https://github.com/LucasLoopsT/Projetos__Rocket/tree/main/Projeto__5.5-COMPLETE">05.5-COMPLETE</a></td>
+            <td align="center"><a href="https://github.com/LucasLoopsT/Projetos__Rocket/tree/main/Projeto__5.5-COMPLETE">Responsiveness & Animation Challange - HTML</a></td>
+            <td align="center"><a href="https://github.com/LucasLoopsT/Projetos__Rocket/tree/main/Projeto__5.5-COMPLETE">
+            <img width="300px" src="https://github.com/LucasLoopsT/Projetos__Rocket/blob/main/Projeto__5.5-COMPLETE/imgs/preview.png"/></a>
             </td>      
         </tr>
     </tbody>
