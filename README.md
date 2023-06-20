@@ -54,7 +54,7 @@
             <td align="center"><a href="https://github.com/LucasLoopsT/Projetos__Rocket/tree/main/Projeto__02-EXTRA">02.EXTRA</a></td>
             <td align="center"><a href="https://github.com/LucasLoopsT/Projetos__Rocket/tree/main/Projeto__02-EXTRA">Correction Challenge - HTML</a></td>
             <td align="center"><a href="https://github.com/LucasLoopsT/Projetos__Rocket/tree/main/Projeto__02-EXTRA">
-            <img width="300px" src="https://github.com/LucasLoopsT/Projetos__Rocket/blob/main/Projeto__02/imgs/preview2.png?raw=true"/></a>
+            <img width="300px" src="https://github.com/LucasLoopsT/Projetos__Rocket/blob/main/Projeto__02-EXTRA/images/preview2.png?raw=true"/></a>
             </td>
         </tr>
         <tr>
