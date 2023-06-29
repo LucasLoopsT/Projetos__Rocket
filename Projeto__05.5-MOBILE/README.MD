@@ -1,6 +1,6 @@
 <h1 align="center">Desafio - Mobile & Animation</h1>
 
-<p align="center"> <img src="imgs/preview.png" height="250em"> </p>
+<p align="center"> <img src="imgs/preview.png" height="550em"> </p>
 
 ## 🚀 Tecnologias
 
