@@ -113,6 +113,13 @@
             <img width="300px" src="https://github.com/LucasLoopsT/Projetos__Rocket/blob/main/Projeto__5.5-COMPLETE/imgs/preview2.png"/></a>
             </td>      
         </tr>
+        <tr>
+            <td align="center"><a href="https://github.com/LucasLoopsT/Projetos__Rocket/tree/main/Projeto__6">06</a></td>
+            <td align="center"><a href="https://github.com/LucasLoopsT/Projetos__Rocket/tree/main/Projeto__6">Javascript Game Challenge - JS</a></td>
+            <td align="center"><a href="https://github.com/LucasLoopsT/Projetos__Rocket/tree/main/Projeto__6">
+            <img width="300px" src="https://github.com/LucasLoopsT/Projetos__Rocket/blob/main/Projeto__6/imgs/preview2.png"/></a>
+            </td>      
+        </tr>
     </tbody>
 </table></p>
 
