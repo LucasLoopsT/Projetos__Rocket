@@ -120,6 +120,13 @@
             <img width="300px" src=https://github.com/LucasLoopsT/Projetos__Rocket/blob/main/Projeto__06/imgs/preview2.png/></a>
             </td>      
         </tr>
+        <tr>
+            <td align="center"><a href="https://github.com/LucasLoopsT/Projetos__Rocket/tree/main/Projeto__06.5">06.5</a></td>
+            <td align="center"><a href="https://github.com/LucasLoopsT/Projetos__Rocket/tree/main/Projeto__06.5">Fortune Cookies Generator</a></td>
+            <td align="center"><a href="https://github.com/LucasLoopsT/Projetos__Rocket/tree/main/Projeto__06.5">
+            <img width="300px" src=https://github.com/LucasLoopsT/Projetos__Rocket/blob/main/Projeto__06.5/imgs/preview2.png/></a>
+            </td>      
+        </tr>
     </tbody>
 </table></p>
 
