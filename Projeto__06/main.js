@@ -22,7 +22,7 @@ function confere(event){
         toggle();
         alert('Ganhou, bichim inteligente!')
         tentativas++
-    }else if(Number(numGuess.value) < 0 || Number(numGuess.value) > 10){
+    }else if(Number(numGuess.value) < 0 || Number(numGuess.value) > 10 || numGuess.value == ''){
         alert("Insira um número válido!")
     }else{
         tentativas++
