@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a551d8020a.js" crossorigin="anonymous"></script>
+    <script src="main.js" defer type="module"></script>
+</head>
+<body>
+    <main>
+        <div id="page">
+            <div id="screen">
+                <h1>Cálculo de IMC</h1>
+                <form>
+                    <label for="weight-id">Peso (kg)</label>
+                    <input type="number" id="weight-id" max="99999" required placeholder="60">
+                    <label for="height-id">Altura (cm)</label>
+                    <input type="number" id="height-id" max="999" required placeholder="175">
+                    <button>Calcular IMC <i class="fa-sharp fa-solid fa-arrow-right"></i> </button>
+                </form>
+            </div>
+            <div class="" id="modal-container">
+                <div id="modal-card">
+                    <i class="fa-solid fa-x"></i>
+                    <h2 id="IMC"></h2>
+                </div>
+            </div>
+            <div class="" id="error">
+                <h2>Preencha os campos!</h2>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
