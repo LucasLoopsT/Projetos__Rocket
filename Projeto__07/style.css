@@ -140,6 +140,12 @@ button:hover{
     color: var(--color-tittle);
 }
 
+p{
+    margin-top: 1.5rem;
+    font-size: var(--fs-S-text);
+    color: var(--color-tittle);
+}
+
 #error{
     display: flex;
     justify-content: center;
