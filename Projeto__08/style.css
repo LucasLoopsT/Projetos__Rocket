@@ -60,29 +60,3 @@ button svg{
 .open{
     display: unset;
 }
-
-#pop-up{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-    background-color: var(--color-pri);
-    border-radius: .8rem;
-}
-
-#pop-up label{
-    font-size: var(--fs-subtittle);
-    color: var(--color-pri);
-    text-align: center;
-    line-height: 0;
-}
-
-#pop-up input{
-    width: 7rem;
-    padding: 2rem 1rem;
-    border-radius: 2rem;
-    border: none;
-    line-height: 0;
-    color: va;
-}
