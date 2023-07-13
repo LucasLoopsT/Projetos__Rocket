@@ -133,7 +133,14 @@
             <td align="center"><a href="https://github.com/LucasLoopsT/Projetos__Rocket/tree/main/Projeto__07">
             <img width="300px" src=https://github.com/LucasLoopsT/Projetos__Rocket/blob/main/Projeto__07/imgs/preview2.png/></a>
             </td>      
-        </tr>        
+        </tr>
+        <tr>
+            <td align="center"><a href="https://github.com/LucasLoopsT/Projetos__Rocket/tree/main/Projeto__08">8</a></td>
+            <td align="center"><a href="https://github.com/LucasLoopsT/Projetos__Rocket/tree/main/Projeto__08">Timer Focus - Pomodoro</a></td>
+            <td align="center"><a href="https://github.com/LucasLoopsT/Projetos__Rocket/tree/main/Projeto__08">
+            <img width="300px" src=https://github.com/LucasLoopsT/Projetos__Rocket/blob/main/Projeto__08/imgs/preview2.png/></a>
+            </td>      
+        </tr>             
     </tbody>
 </table></p>
 
