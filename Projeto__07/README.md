@@ -10,6 +10,10 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Javascript
 - Git e Github
 - Figma
+  
+## 📌 Nota
+
+Para o Javascript funcionar é necessário usar a extensão "live server" do VS Code.
 
 ## ✏️ Layout
 
