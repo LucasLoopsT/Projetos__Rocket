@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+    --fs-tittle: 4.8rem;
+    --fs-nav: 2.4rem;
+    --fs-M-text: 1.8rem;
+    --fs-S-text: 1.4rem;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(31, 30, 41);
+}
+
+nav{
+    display: flex;
+    gap: 4rem;
+    padding: 4rem 7.2rem;
+    min-width: 60rem;
+}
+
+nav img{
+    transition: all 0.3s ease;
+}
+
+nav img:hover{
+    rotate: 180deg;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 3.2rem;
+    min-width: 36.5rem;
+}
+
+nav a{
+    font-size: var(--fs-nav);
+    color: hsl(240, 7%, 78%, 1);
+    font-weight: 400;
+    text-decoration: none;
+
+    transition: all 150ms ease;
+}
+
+nav a:hover{
+border-bottom: solid 2px white;}
+
+.navPressed{
+    color: #FFF;
+    font-weight: bold;
+}
+
+.homeContent{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.4rem;
+}
+
+h1{
+    font-size: var(--fs-tittle);
+    font-weight: 700;
+    color: hsla(240, 9%, 89%, 1);
+
+    animation: TittleForHome 1.2s ease;
+}
+
+@keyframes TittleForHome {
+    0%{
+        opacity: 0;
+        transform: translateY(-6.5rem);
+    }
+}
+
+.homeContent a{
+    font-size: var(--fs-S-text);
+    text-transform: uppercase;
+    color: hsla(240, 9%, 89%, 1);
+    text-decoration: none;
+    padding: 1.2rem 3.2rem;
+    border-radius: .5rem;
+    border: .2rem solid #FFF;
+
+    animation: TittleForHome 1.2s 0.2s backwards ease;
+    transition: all 1s ease, padding 0.4s 35ms ease;
+}
+
+.homeContent a:hover{
+    font-size: var(--fs-M-text);
+    font-weight: bold;
+    padding: 1.7rem 3.7rem;
+}
+
+#homeBG{
+    background-image: url(imgs/mountains-universe-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+}
+
+.Text-container{
+    margin-top: 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 1.6rem;
+    padding-left: 10rem;
+}
+
+.Text-container h1{
+    animation: TittleAparece 800ms backwards ease;
+}
+
+@keyframes TittleAparece {
+    0%{
+        opacity: 0;
+        font-size: 0;
+    }
+}
+
+.Text-container p{
+    font-size: var(--fs-M-text);
+    color: hsla(240, 9%, 89%, 1);
+    font-weight: 400;
+    width: 64.8rem;
+    animation: Text 750ms 350ms backwards ease;
+}
+
+@keyframes Text {
+    0%{
+        opacity: 0;
+        transform: translateX(-5.5rem);
+    }
+}
+
+#UniversoBG{
+    background-image: url(imgs/mountains-universe-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+}
+
+#ExplorerBG{
+    background-image: url(imgs/mountains-universe-3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+}
