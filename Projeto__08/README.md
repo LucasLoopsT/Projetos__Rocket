@@ -13,11 +13,11 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 📌 Nota
 
-Para o Javascript funcionar é necessário usar a extensão "live server" do VS Code.
+Para o Javascript funcionar é necessário usar um server local.
 
 ## ✏️ Layout
 
-🔗 Link-Figma: 
+🔗 Link-Figma: https://www.figma.com/file/VNeHe4lvuKPz6GMoMrqDDj/Explorer-Stage-05-Projeto-01-(Copy)?type=design&node-id=0%3A1&mode=design&t=xyi2O6Qgk0kUyGvm-1
 
 ---
 

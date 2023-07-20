@@ -13,7 +13,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
   
 ## 📌 Nota
 
-Para o Javascript funcionar é necessário usar a extensão "live server" do VS Code.
+Para o Javascript funcionar é necessário usar um server local.
 
 ## ✏️ Layout
 
