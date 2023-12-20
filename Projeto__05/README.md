@@ -1,13 +1,13 @@
-<h1 align="center">Desafio - Grid e Responsividade</h1>
+<h1 align="center">Responsive & Grid Challenge</h1>
 
 <p align="center"> <img src="imgs/preview.png" width="100%"> </p>
 
-## 🚀 Tecnologias
+## 🚀 Technologies
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+This project was developed with the following technologies:
 
-- HTML e CSS
-- Git e Github
+- HTML, CSS
+- Git, Github
 - Figma
 
 ## ✏️ Layout
